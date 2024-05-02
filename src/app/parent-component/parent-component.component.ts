@@ -15,6 +15,7 @@ export class ParentComponentComponent implements OnInit,AfterViewInit {
     console.log(1)
     this.childcomponent.fieldValue = "product Parent Invokcation Component";
     this.childcomponent.SendData();
+    //Addede another commands
   }
 
  
