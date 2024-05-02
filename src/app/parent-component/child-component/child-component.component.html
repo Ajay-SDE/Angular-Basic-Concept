@@ -1,0 +1,12 @@
+<h1>Adding another component</h1>
+<input [(ngModel)]="fieldValue" type="text"/> 
+<button (click)="SendData()" class="btn btn-primary">Emit</button>
+
+<div #productCollection *ngFor="let product of products">
+    <h1>This is the product Title {{product}}</h1>
+</div>
+
+
+<div>
+    <h5>{{streamRender}}</h5>
+</div>

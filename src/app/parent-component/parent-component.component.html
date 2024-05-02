@@ -1,0 +1,9 @@
+<h1>This is parent componet</h1>
+<app-child-component [products]="collection" (emitValue)="HandleData($event)">
+</app-child-component>
+
+<!-- Form concept implementation -->
+<form (ngSubmit)="logUser(f)" #f="ngForm">
+    <input type="text" ngModel name="userName">
+    <button type="submit">Submit</button>
+</form>
